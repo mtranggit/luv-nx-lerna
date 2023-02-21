@@ -2,7 +2,10 @@
   "name": "luv-is-even",
   "version": "0.0.0",
   "description": "Check whether a number is even",
-  "keywords": [],
+  "keywords": [
+    "odd",
+    "even"
+  ],
   "author": "Michael Trang <michael.trang@hotmail.com>",
   "license": "ISC",
   "main": "dist/luv-is-even.js",
@@ -15,8 +18,8 @@
     "dist"
   ],
   "scripts": {
-    "build": "npx lerna run build --scope=luv-is-odd && tsc",
-    "test": "npm run build && npx lerna run build --scope=luv-is-even && jest"
+    "build": "tsc",
+    "test": "jest"
   },
   "dependencies": {
     "luv-is-odd": "*"
