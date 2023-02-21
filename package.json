@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "prepublish": "npm install && lerna run build"
+  },
   "devDependencies": {
     "jest": "^29.4.3",
     "lerna": "^6.5.1",

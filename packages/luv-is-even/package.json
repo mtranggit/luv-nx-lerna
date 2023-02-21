@@ -19,8 +19,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest",
-    "prepublish": "lerna run build --scope=luv-is-even"
+    "test": "jest"
   },
   "dependencies": {
     "luv-is-odd": "^1.1.0"
