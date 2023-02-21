@@ -1,6 +1,6 @@
 {
   "name": "luv-is-even",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Check whether a number is even",
   "keywords": [
     "odd",
@@ -22,6 +22,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "luv-is-odd": "^1.1.0"
+    "luv-is-odd": "^1.1.1"
   }
 }
