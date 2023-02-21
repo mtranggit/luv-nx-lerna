@@ -20,6 +20,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "lerna run build --scope=luv-is-odd"
   }
 }
