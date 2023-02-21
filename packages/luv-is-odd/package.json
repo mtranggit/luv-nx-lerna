@@ -1,0 +1,25 @@
+{
+  "name": "luv-is-odd",
+  "version": "0.0.0",
+  "description": "Check whether a number is odd",
+  "keywords": [
+    "odd",
+    "even"
+  ],
+  "author": "Michael Trang <michael.trang@hotmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/luv-is-odd.js",
+  "types": "dist/luv-is-odd.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "lerna run build --scope=luv-is-odd && jest"
+  }
+}
