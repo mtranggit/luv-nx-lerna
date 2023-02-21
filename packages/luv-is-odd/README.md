@@ -1,6 +1,6 @@
 # `luv-is-odd`
 
-> TODO: description
+> Check number is odd
 
 ## Usage
 

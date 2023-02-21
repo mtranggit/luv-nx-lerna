@@ -1,6 +1,6 @@
 # `luv-is-even`
 
-> TODO: description
+> Check number is even
 
 ## Usage
 
