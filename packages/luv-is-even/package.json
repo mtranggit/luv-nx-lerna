@@ -23,5 +23,6 @@
   },
   "dependencies": {
     "luv-is-odd": "^1.1.1"
-  }
+  },
+  "gitHead": "dd516df68e7a4b16d46df8e2dd6e8ae079975dac"
 }

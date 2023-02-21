@@ -5,7 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "prepublish": "npm install && lerna run build"
+    "prebuild": "npm install",
+    "build": "lerna run build",
+    "prepublish": "lerna run build"
   },
   "devDependencies": {
     "jest": "^29.4.3",

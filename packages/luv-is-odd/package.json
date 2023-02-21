@@ -21,5 +21,6 @@
   "scripts": {
     "build": "tsc",
     "test": "jest"
-  }
+  },
+  "gitHead": "dd516df68e7a4b16d46df8e2dd6e8ae079975dac"
 }
