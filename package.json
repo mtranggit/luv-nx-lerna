@@ -7,8 +7,7 @@
   "scripts": {
     "prebuild": "npm install",
     "build": "lerna run build",
-    "prepublish": "npm run build",
-    "publish": "lerna publish from-git"
+    "publish": "npm run build && lerna publish from-git"
   },
   "devDependencies": {
     "jest": "^29.4.3",
